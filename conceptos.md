@@ -90,3 +90,26 @@ Un **stack de desarrollo** es un conjunto de tecnologías (lenguajes de programa
 - **Base de Datos**: Pueden ser relacionales (MySQL, PostgreSQL) o NoSQL (MongoDB).
 
 Cada stack tiene ventajas dependiendo de las necesidades del proyecto (velocidad, rendimiento, flexibilidad, facilidad de uso). La elección del stack depende de los requisitos del proyecto, las preferencias del equipo de desarrollo, y las características de la aplicación que se desea construir.
+Lo que has mencionado describe muy bien la división y especialización que existe en el desarrollo web, tanto en el frontend como en el backend, y la aparición del perfil **Full-Stack**. A continuación, te hago un resumen y una explicación de los conceptos clave:
+
+### **Desarrollador Frontend:**
+- **¿Qué hace?** El desarrollador frontend se encarga de todo lo que los usuarios ven e interactúan en una página web. Su trabajo es crear una experiencia de usuario (UX) atractiva y funcional.
+  
+- **Tecnologías utilizadas**:
+  - **HTML (Hypertext Markup Language)**: Lenguaje de marcado que se utiliza para estructurar el contenido de la página web (títulos, párrafos, listas, imágenes, etc.).
+  - **CSS (Cascading Style Sheets)**: Lenguaje de estilos utilizado para definir la apariencia visual de una página web (colores, tamaños, tipografía, márgenes, etc.).
+  - **JavaScript**: Lenguaje de programación que se utiliza para añadir interactividad a la página web (por ejemplo, formularios dinámicos, cambios en la interfaz de usuario sin recargar la página, etc.).
+
+- **Herramientas y tecnologías adicionales**:
+  - **Frameworks** como **React**, **Angular**, y **Vue.js**, que ayudan a desarrollar aplicaciones web de manera más eficiente.
+  - **Librerías** y **preprocesadores** como **Sass** o **Less** (para CSS), que permiten un código más limpio y modular.
+
+### **Desarrollador Backend:**
+- **¿Qué hace?** El desarrollador backend trabaja en el servidor, creando la lógica detrás de las aplicaciones web. Gestiona bases de datos, realiza operaciones de autenticación de usuarios, maneja la lógica de negocio, y conecta con el frontend.
+
+- **Tecnologías utilizadas**:
+  - **Lenguajes de programación**: **PHP**, **Python**, **Java**, **Node.js**, **Ruby**, entre otros.
+  - **Bases de datos**: **SQL** (MySQL, PostgreSQL) o **NoSQL** (Mongo
+  - Los **lenguajes de backend** incluyen PHP, Python, Ruby, Go, C#, Java y **Node.js** (que permite usar JavaScript en el servidor). Esto permite que JavaScript se use tanto en el frontend como en el backend, facilitando el desarrollo.
+
+Un **stack tecnológico** es el conjunto de herramientas utilizadas para crear una aplicación web, como lenguajes de programación, frameworks y bases de datos. Ejemplos de stacks incluyen los usados por **Facebook**, **Netflix**, **WhatsApp** e **Instagram**, cada uno con su propia combinación de tecnologías.
