@@ -1,40 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <title>Bienvenidos al colegio</title>
-  </head>
-  <body>
-    <h1>¡Bienvenidos al colegio!</h1>
-  </body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página con fondo azul marino</title>
-  <style>
-    body {
-      background-color: #000080; 
-      color: white; 
-      font-family: Arial, sans-serif;
-    }
-  </style>
-  <div> 
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeRmZ8Y7Bre_JK_MsWT7BD5dPUMm-tQ8VJWg0yqwJxipfgKZ9xvqzSpIBnSRg6hrKvd7k&usqp=CAU"altc""="imagen de ejemplo>
-  </div>
-  <div>
-  <label for="usuario">Usuario:</label>
-  <input type="text" id="usuario" name="usuario" placeholder="Ingresa tu usuario">
-    <button = "ingresar usuario y contraseña ">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos al colegio</title>
+    <style>
+        body {
+            background-color: #000080; 
+            color: white; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
 
-  <label for="password">Contraseña:</label>
-  <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña">
-    
-      
-</div>
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
 
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            width: 300px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+        input[type="text"]::placeholder,
+        input[type="password"]::placeholder {
+            color: #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ffcc00;
+            color: #000;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #e6b800;
+        }
+    </style>
 </head>
+<body>
+    <h1>¡Bienvenidos al colegio!</h1>
+    
+    <div> 
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeRmZ8Y7Bre_JK_MsWT7BD5dPUMm-tQ8VJWg0yqwJxipfgKZ9xvqzSpIBnSRg6hrKvd7k&usqp=CAU" alt="imagen de ejemplo">
+    </div>
+    
+    <div class="form-container">
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" placeholder="Ingresa tu usuario">
+        
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña">
+        
+        <button type="button">Ingresar</button>
+    </div>
+</body>
 </html>
 
